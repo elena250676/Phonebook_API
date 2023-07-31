@@ -22,7 +22,9 @@ dependencies {
     implementation 'ch.qos.logback:logback-classic:1.2.11'
     implementation 'com.squareup.okhttp3:okhttp:4.9.0'
     implementation 'com.google.code.gson:gson:2.8.6'
-
+    implementation 'com.jayway.restassured:rest-assured:2.9.0'
+    testImplementation 'javax.xml.bind:jaxb-api:2.3.1'
+    testImplementation 'io.rest-assured:rest-assured:4.3.3' // Use the latest compatible version
 }
 test {
     useTestNG()
